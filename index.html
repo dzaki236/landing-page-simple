@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /*Font*/
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+        /*Body Style*/
+        body {
+            background-image: url('./bg.png');
+            background-size: cover;
+        }
+
+        /*Css reset*/
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /*End of utilities*/
+
+        /*Navbar Style*/
+        nav {
+            font-family: 'Roboto', sans-serif;
+            padding: 1em;
+        }
+
+        nav li {
+            font-size: 16px;
+            list-style-type: none;
+            display: inline-block;
+            padding-left: 100px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: #00bfff;
+            text-transform: uppercase;
+        }
+
+        nav button {
+            font-size: 16px;
+            background-color: #00bfff;
+            padding: 10px 20px 10px 20px;
+            border: none;
+            color: white;
+            margin-left: 500px;
+        }
+
+        /*End of nav style*/
+
+        /*Deskripsi Style*/
+        .deskripsi .h2 {
+            color: #009cd0;
+            letter-spacing: 1px;
+            margin-top: 5%;
+            font-size: 60px;
+            font-weight: 100;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .deskripsi .h1 {
+
+            color: #242225;
+            letter-spacing: 1px;
+            margin-top: 5%;
+            font-size: 70px;
+            font-weight: bold;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .deskripsi {
+            margin-left: 80px;
+            margin-top: 70px;
+        }
+
+        .deskripsi p {
+            font-size: 16px;
+            line-height: 30px;
+            color: gray;
+            font-family: 'Noto Sans', sans-serif;
+            margin-top: 20px;
+        }
+
+        /*End of deskripsi style*/
+
+        /*Gambar Style*/
+        .gambar {
+            margin-top: -100px;
+        }
+
+        /*End of Gambar style*/
+
+        /*Container Style*/
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container button {
+            font-size: 20px;
+            background-color: #009bcf;
+            padding: 10px 20px 10px 20px;
+            border: none;
+            color: white;
+        }
+        /*End of container style*/
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Contact</a></li>
+                <button>Login</button>
+            </ul>
+
+        </nav>
+        <div class="container">
+            <div class="deskripsi">
+                <p><span class="h2">Business</span><br><br><span class="h1">Technology</span>
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum quaerat tenetur nostrum culpa
+                    sit vero tempore! Veritatis similique qui sint itaque! Vitae repudiandae maxime ut cupiditate nisi
+                    mollitia odit magni.</p>
+                <br>
+                <button>Read more</button>
+            </div>
+            <div class="gambar">
+                <img src="ilustrasi.png" alt="" width="650px">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
